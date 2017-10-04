@@ -1,0 +1,103 @@
+{
+  // Place your settings in this file to overwrite the default settings
+  // Controls the font family.
+  "editor.fontFamily": "fira code",
+  //"editor.fontFamily": "Operator Mono",
+  // Controls the font weight.
+  "editor.fontWeight": "400",
+  // Enables font ligatures
+  "editor.fontLigatures": true,
+  // Controls the font size in pixels.
+  "editor.fontSize": 15,
+  // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
+  "editor.lineHeight": 30,
+  // Format a file on save. A formatter must be available, the file must not be auto-saved, and editor must not be shutting down.
+  "editor.formatOnSave": true,
+  "editor.rulers": [
+    80
+  ],
+  // Controls the display of line numbers. Possible values are 'on', 'off', and 'relative'. 'relative' shows the line count from the current cursor position.
+  "editor.lineNumbers": "relative",
+  // Insert snippets when their prefix matches. Works best when 'quickSuggestions' aren't enabled.
+  "editor.tabCompletion": true,
+  "workbench.welcome.enabled": false,
+  // Number of editors shown in the Open Editors pane. Set it to 0 to hide the pane.
+  "explorer.openEditors.visible": 0,
+  "workbench.iconTheme": "material-icon-theme",
+  "vim.disableAnnoyingNeovimMessage": true,
+  // Controls the font family of the terminal, this defaults to editor.fontFamily's value.
+  "terminal.integrated.fontFamily": "fira code",
+  // Controls whether font ligatures are enabled in the terminal.
+  "terminal.integrated.fontLigatures": true,
+  // Controls the font size in pixels of the terminal.
+  "terminal.integrated.fontSize": 15,
+  // Controls the line height of the terminal, this number is multipled by the terminal font size to get the actual line-height in pixels.
+  "terminal.integrated.lineHeight": 1.4,
+  // Whether to enable bold text within the terminal, this requires support from the terminal shell.
+  "terminal.integrated.enableBold": false,
+  // Configure glob patterns for excluding files and folders.
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/__pycache__": true,
+    "**/.vscode": true,
+    "**/venv": true,
+    "**/.mypy_cache": true
+  },
+  // Controls if the minimap is shown
+  "editor.minimap.enabled": false,
+  // Path to Python, you can use a custom version of Python by modifying this setting to include the full path.
+  "python.pythonPath": "/usr/local/bin/python3",
+  // Whether to lint Python files using mypy.
+  "python.linting.mypyEnabled": true,
+  // Whether to lint Python files using pylint.
+  "python.linting.pylintEnabled": true,
+  // Whether to lint Python files when saved.
+  "python.linting.lintOnSave": true,
+  // Format and indent {{#foo}} and {{/foo}}.
+  "html.format.indentHandlebars": true,
+  // Enable/disable default HTML formatter (requires restart)
+  "html.format.enable": false,
+  "editor.detectIndentation": true,
+  "prettier.eslintIntegration": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.semi": false,
+  "bracketPairColorizer.forceUniqueOpeningColor": false,
+  "bracketPairColorizer.consecutivePairColors": [
+    "()",
+    "[]",
+    "{}",
+    [
+      "Khaki",
+      "pink",
+      "PaleGreen"
+    ],
+    "Red"
+  ],
+  "bracketPairColorizer.colorMode": "Consecutive",
+  "bracketPairColorizer.timeOut": 0,
+  "powermode.enabled": true,
+  "powermode.legacyMode": true,
+  "workbench.colorTheme": "Material Theme",
+  "java.home": "/Library/Java/Home",
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#C6FF00",
+    "list.activeSelectionForeground": "#C6FF00",
+    "list.inactiveSelectionForeground": "#C6FF00",
+    "list.highlightForeground": "#C6FF00",
+    "scrollbarSlider.activeBackground": "#C6FF0050",
+    "editorSuggestWidget.highlightForeground": "#C6FF00",
+    "textLink.foreground": "#C6FF00",
+    "progressBar.background": "#C6FF00",
+    "pickerGroup.foreground": "#C6FF00"
+  },
+  "materialTheme.cache.workbench.settings": {
+    "accent": "Acid Lime",
+    "themeColours": "Default"
+  },
+  "editor.tabSize": 2
+}

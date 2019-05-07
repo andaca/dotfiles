@@ -1,0 +1,1 @@
+/home/user/git/powerlevel9k/powerlevel9k.zsh-theme
